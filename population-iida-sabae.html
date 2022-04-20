@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>人口分布比較 - 飯田市 - 鯖江市</title>
+</head>
+<body>
+<h1>人口分布比較 - 飯田市 - 鯖江市</h1>
+
+<div id=main></div>
+
+<style>
+chart-line {
+    width: 90vw;
+    height: 500px;
+}
+</style>
+<script type="module">
+import { ChartLine } from "https://code4fukui.github.io/chart-line/chart-line.js";
+import { CSV } from "https://js.sabae.cc/CSV.js";
+
+const iida = CSV.toJSON(await CSV.fetch("./population-iida.csv"));
+console.log(iida)
+const sabae = CSV.toJSON(await CSV.fetch("./population-sabae.csv"));
+console.log(sabae)
+
+const data = [iida, sabae];
+const chart = new ChartLine(data);
+main.appendChild(chart);
+</script>
+
+DATA: <a href=https://data.e-stat.go.jp/lodw/>e-Stat 統計LOD - 2015年年齢別人口</a><br>
+</body>
+</html>
