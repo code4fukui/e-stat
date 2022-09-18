@@ -16,4 +16,4 @@ const list = lgcodes.map(l => {
 list.sort((a, b) => a.lgcode.localeCompare(b.lgcode));
 console.log(list);
 
-await writeData("../population-all", list);
+await writeData("../population", list);
