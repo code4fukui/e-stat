@@ -11,6 +11,9 @@ chart-line {
     width: 90vw;
     height: 500px;
 }
+a {
+    color: gray !important;
+}
 </style>
 <script type="module">
 import { ChartLine } from "https://code4fukui.github.io/chart-line/chart-line.js";
@@ -26,6 +29,8 @@ const chart = new ChartLine(data);
 main.appendChild(chart);
 </script>
 
+<div style="text-align:center">赤: 長野県飯田市、緑: 福井県鯖江市</div>
+<br>
 DATA: <a href=https://data.e-stat.go.jp/lodw/>e-Stat 統計LOD - 2015年年齢別人口</a><br>
 </body>
 </html>
