@@ -1,5 +1,7 @@
 # e-stat
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A project to visualize and analyze population data from the Japanese government's e-Stat open data platform.
 
 ## Demo
