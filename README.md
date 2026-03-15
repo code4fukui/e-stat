@@ -1,7 +1,15 @@
 # e-stat
 
-- [飯田市と鯖江市比較](https://code4fukui.github.io/e-stat/population-iida-sabae.html)
+A project to visualize and analyze population data from the Japanese government's e-Stat open data platform.
 
-## オープンデータ
+## Demo
+[Comparison of population distribution for Iida City and Sabae City](https://code4fukui.github.io/e-stat/population-iida-sabae.html)
 
-- 都道府県、市区町村、地方公共団体別人口 2010年/2015年 e-stat国勢調査より [CSV](https://code4fukui.github.io/e-stat/population.csv) / [JSON](https://code4fukui.github.io/e-stat/population.json) / [CBOR](https://code4fukui.github.io/e-stat/population.cbor)
+## Open Data
+- Population by prefecture, city, town, and municipality for 2010 and 2015 from the e-Stat census data
+  - [CSV](https://code4fukui.github.io/e-stat/population.csv)
+  - [JSON](https://code4fukui.github.io/e-stat/population.json)
+  - [CBOR](https://code4fukui.github.io/e-stat/population.cbor)
+
+## License
+MIT
