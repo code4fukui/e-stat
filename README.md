@@ -14,4 +14,4 @@ A project to visualize and analyze population data from the Japanese government'
   - [CBOR](https://code4fukui.github.io/e-stat/population.cbor)
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
